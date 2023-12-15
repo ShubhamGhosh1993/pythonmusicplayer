@@ -8,7 +8,6 @@ root = Tk()
 root.title("Simpli Music Player")
 root.geometry("485x700+290+10")
 root.configure(background='#333333')
-root.resizable(False, False)
 mixer.init()
 
 # Create a function to open a file
